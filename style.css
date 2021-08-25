@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  height: 350px;
+}
+
+.container h4,
+p {
+  text-align: center;
+  line-height: 35px;
+}
+
+.container h4 {
+  font-weight: bold;
+}
+
+.wep-developing {
+  padding: 0 15px 15px 15px;
+  padding-top: 40px;
+  float: left;
+  margin-right: 25px;
+  background-color: #eee;
+  transition: 0.2s;
+}
+
+.ui-ux {
+  padding: 0 15px 15px 15px;
+  padding-top: 40px;
+  float: left;
+  margin-right: 25px;
+  background-color: #eee;
+  transition: 0.2s;
+}
+
+.web-design {
+  padding: 0 15px 15px 15px;
+  padding-top: 40px;
+  float: left;
+  margin-right: 25px;
+  background-color: #eee;
+  transition: 0.2s;
+}
+
+.seo-optimize {
+  padding: 0 15px 15px 15px;
+  padding-top: 40px;
+  float: left;
+  margin-right: 25px;
+  background-color: #eee;
+  transition: 0.2s;
+}
+
+img {
+  margin-left: 80px;
+  margin-bottom: 25px;
+}
+
+.wep-developing:hover,
+.ui-ux:hover,
+.web-design:hover,
+.seo-optimize:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
